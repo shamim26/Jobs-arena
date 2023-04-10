@@ -20,7 +20,7 @@ const FeaturedJobs = () => {
           : jobs.slice(0, 4).map((job) => <Job key={job.id} job={job}></Job>)}
       </div>
       <button
-        onClick={() => setShowAll(true)}
+        onClick={() => setShowAll(!showAll)}
         className={`font-semibold text-white px-6 py-4 mx-auto rounded-lg bg-gradient-to-r from-[#7E90FE] to-[#9873FF] ${
           showAll ? "hidden" : "block"
         }`}
