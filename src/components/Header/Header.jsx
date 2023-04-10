@@ -14,8 +14,8 @@ const Header = () => {
       >
         <nav className="flex items-center justify-between flex-col md:flex-row gap-8 font-medium">
           <Link to="/statistic">Statistics</Link>
-          <Link to="applied-jobs">Applied Jobs</Link>
-          <Link to="blog">Blog</Link>
+          <Link to="/applied-jobs">Applied Jobs</Link>
+          <Link to="/blog">Blog</Link>
           <button className="font-semibold md:ml-80 text-white px-5 py-4 rounded-lg bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">
             Start Applying
           </button>

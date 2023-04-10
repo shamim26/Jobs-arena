@@ -1,11 +1,11 @@
 [
   {
-    "id": 1,
+    "id": 1001,
     "companyLogo": "./Logo/logo(1).png",
     "jobTitle": "Front-end Developer",
     "companyName": "ABC Inc.",
     "remoteOrOnsite": "Remote",
-    "location": "Any",
+    "location": "Dhaka, Bangladesh",
     "fulltimeOrParttime": "Full-time",
     "salary": "$80,000 - $100,000",
     "jobDescription": "We are seeking a skilled front-end developer to join our team. The ideal candidate should have experience with React, Angular or Vue.js, and be familiar with CSS pre-processors such as Sass or Less.",
@@ -16,7 +16,7 @@
     "email": "hr@abcinc.com"
   },
   {
-    "id": 2,
+    "id": 1002,
     "companyLogo": "./Logo/logo2).png",
     "jobTitle": "Back-end Developer",
     "companyName": "XYZ Corp.",
@@ -33,7 +33,7 @@
     "email": "jobs@xyzcorp.com"
   },
   {
-    "id": 3,
+    "id": 1003,
     "companyLogo": "./Logo/google-1-13.png",
     "jobTitle": "Product Manager",
     "companyName": "123 Corp.",
@@ -50,7 +50,7 @@
     "email": "careers@123corp.com"
   },
   {
-    "id": 4,
+    "id": 1004,
     "companyLogo": "./Logo/Group10021.png",
     "jobTitle": "UI/UX Designer",
     "companyName": "Design Co.",
@@ -67,12 +67,12 @@
     "email": "jobs@designco.com"
   },
   {
-    "id": 5,
+    "id": 1005,
     "companyLogo": "./Logo/netflix-41.png",
     "jobTitle": "Data Scientist",
     "companyName": "Analytics LLC",
     "remoteOrOnsite": "Remote",
-    "location": "Any",
+    "location": "Dublin, Ireland",
     "fulltimeOrParttime": "Full-time",
     "salary": "$120,000 - $150,000",
     "jobDescription": "We are seeking a skilled data scientist to join our team. The ideal candidate should have experience with machine learning algorithms, statistical analysis, and programming languages such as Python or R.",
@@ -84,12 +84,12 @@
     "email": "careers@analyticsllc.com"
   },
   {
-    "id": 6,
+    "id": 1006,
     "companyLogo": "./Logo/tesla-91.png",
     "jobTitle": "Full Stack Developer",
     "companyName": "Web Dev Inc.",
     "remoteOrOnsite": "Remote",
-    "location": "Any",
+    "location": "New York City",
     "fulltimeOrParttime": "Full-time",
     "salary": "$80,000 - $100,000",
     "jobDescription": "We are seeking a full stack developer to join our team. The ideal candidate should have experience with modern web development frameworks such as React, Angular, or Vue, as well as proficiency in both frontend and backend technologies such as HTML, CSS, JavaScript, Node.js, and SQL or NoSQL databases.",

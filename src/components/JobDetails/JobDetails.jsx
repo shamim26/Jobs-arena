@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import CommonBanner from "../CommonBanner/CommonBanner";
 import { useLoaderData, useParams } from "react-router-dom";
+import { addToDb } from "../../utilities/localDB";
 
 const JobDetails = () => {
   const { id } = useParams();
@@ -57,7 +58,9 @@ const JobDetails = () => {
               <span className="text-black">Job Title:</span>
               {singleJob.jobTitle}
             </p>
-            <h5 className="font-semibold pb-2 border-b-2">Contact Information</h5>
+            <h5 className="font-semibold pb-2 border-b-2">
+              Contact Information
+            </h5>
             <p className="text-[#757575]">
               <img
                 className="inline"
@@ -83,7 +86,9 @@ const JobDetails = () => {
               <span className="text-black">Address:</span> {singleJob.location}
             </p>
           </div>
-          <button className="font-semibold text-white rounded-lg bg-gradient-to-tl from-[#7E90FE] to-[#9873FF] py-3 px-24 mt-6">Apply Now</button>
+          <button onClick={() => addToDb(singleJob.id)} className="font-semibold text-white rounded-lg bg-gradient-to-tl from-[#7E90FE] to-[#9873FF] py-3 px-24 mt-6">
+            Apply Now
+          </button>
         </div>
       </div>
     </div>
