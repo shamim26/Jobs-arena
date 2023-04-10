@@ -1,10 +1,14 @@
-import React, { useContext, useState } from "react";
-import { jobContext } from "../Home/Home";
+import React, { useEffect, useState } from "react";
 import Job from "../Job/Job";
 
 const FeaturedJobs = () => {
-  const jobs = useContext(jobContext);
   const [showAll, setShowAll] = useState(false);
+  const [jobs, setJobs] = useState([]);
+  useEffect(() => {
+    fetch("/featuredJobs.json")
+      .then((res) => res.json())
+      .then((data) => setJobs(data));
+  }, []);
   return (
     <div className="mb-32">
       <div>

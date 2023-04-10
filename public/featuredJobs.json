@@ -12,10 +12,8 @@
     "jobResponsibility": "Responsibilities include designing and implementing user interfaces, collaborating with back-end developers to integrate with APIs, and working with product managers to understand user requirements.",
     "educationalRequirements": "Bachelor's degree in Computer Science or a related field.",
     "experiences": "3+ years of experience in front-end development.",
-    "contactInformation": {
-      "phone": "123-456-7890",
-      "email": "hr@abcinc.com"
-    }
+    "phone": "123-456-7890",
+    "email": "hr@abcinc.com"
   },
   {
     "id": 2,
@@ -30,10 +28,9 @@
     "jobResponsibility": "Responsibilities include designing and implementing server-side applications, writing and maintaining database queries, and collaborating with front-end developers to integrate with user interfaces.",
     "educationalRequirements": "Bachelor's degree in Computer Science or a related field.",
     "experiences": "5+ years of experience in back-end development.",
-    "contactInformation": {
-      "phone": "555-555-1234",
-      "email": "jobs@xyzcorp.com"
-    }
+
+    "phone": "555-555-1234",
+    "email": "jobs@xyzcorp.com"
   },
   {
     "id": 3,
@@ -48,10 +45,9 @@
     "jobResponsibility": "Responsibilities include defining product vision and strategy, conducting user research and testing, collaborating with cross-functional teams, and defining and tracking product metrics.",
     "educationalRequirements": "Bachelor's degree in a related field.",
     "experiences": "7+ years of experience in product management.",
-    "contactInformation": {
-      "phone": "800-555-1212",
-      "email": "careers@123corp.com"
-    }
+
+    "phone": "800-555-1212",
+    "email": "careers@123corp.com"
   },
   {
     "id": 4,
@@ -66,10 +62,9 @@
     "jobResponsibility": "Responsibilities include conducting user research and testing, creating wireframes and prototypes, collaborating with product managers and developers, and designing user interfaces for web and mobile applications.",
     "educationalRequirements": "Bachelor's degree in a related field.",
     "experiences": "3+ years of experience in UI/UX design.",
-    "contactInformation": {
-      "phone": "415-555-1234",
-      "email": "jobs@designco.com"
-    }
+
+    "phone": "415-555-1234",
+    "email": "jobs@designco.com"
   },
   {
     "id": 5,
@@ -84,10 +79,9 @@
     "jobResponsibility": "Responsibilities include designing and implementing machine learning models, conducting statistical analyses, and working with cross-functional teams to identify data-driven solutions to business problems.",
     "educationalRequirements": "Master's degree or PhD in a related field.",
     "experiences": "5+ years of experience in data science or a related field.",
-    "contactInformation": {
-      "phone": "555-555-1212",
-      "email": "careers@analyticsllc.com"
-    }
+
+    "phone": "555-555-1212",
+    "email": "careers@analyticsllc.com"
   },
   {
     "id": 6,
@@ -102,10 +96,8 @@
     "jobResponsibility": "Responsibilities include developing and maintaining web applications, collaborating with designers and other developers, and ensuring that the user interface is visually appealing and responsive, as well as optimizing application performance and scalability.",
     "educationalRequirements": "Bachelor's degree in Computer Science or a related field.",
     "experiences": "3+ years of experience in full stack development.",
-    "contactInformation": {
-      "phone": "555-555-1234",
-      "email": "jobs@webdevinc.com"
-    }
+
+    "phone": "555-555-1234",
+    "email": "jobs@webdevinc.com"
   }
-  
 ]

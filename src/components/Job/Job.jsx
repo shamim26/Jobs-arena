@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Job = ({ job }) => {
-  console.log(job);
   const {
     id,
     companyLogo,
@@ -45,7 +44,7 @@ const Job = ({ job }) => {
           </span>
         </p>
         <button className="font-semibold text-white px-5 py-3 rounded-lg bg-gradient-to-r  from-[#7E90FE] to-[#9873FF]">
-          <Link to={`/job/${id}`}>View Details</Link>
+          <a href={`/job/${id}`}>View Details</a>
         </button>
       </div>
     </div>

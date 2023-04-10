@@ -5,6 +5,11 @@ export default {
     fontFamily: {
       sans: ["Manrope", "sans-serif"],
     },
+    extend:{
+      gridTemplateColumns:{
+        custom: ['3fr 1fr']
+      }
+    }
   },
   plugins: [],
 };
