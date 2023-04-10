@@ -1,15 +1,20 @@
-import React from 'react';
+import React, { createContext, useState } from 'react';
 import Banner from '../Banner/Banner';
 import JobCategory from '../JobCategory/JobCategory';
 import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
+import { useLoaderData } from 'react-router-dom';
+
+export const jobContext = createContext();
 
 const Home = () => {
+    const jobs = useLoaderData();
+    
     return (
-        <div>
+        <jobContext.Provider value={jobs}>
             <Banner></Banner>
             <JobCategory></JobCategory>
             <FeaturedJobs></FeaturedJobs>
-        </div>
+        </jobContext.Provider>
     );
 };
 
