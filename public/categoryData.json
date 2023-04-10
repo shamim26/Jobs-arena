@@ -1,22 +1,22 @@
 [
   {
     "category": "Technology",
-    "logo": "../src/assets/Icons/chip 1.png",
+    "logo": "./Icons/chip1.png",
     "jobsAvailable": 150
   },
   {
     "category": "Marketing",
-    "logo": "../src/assets/Icons/social-media 1.png",
+    "logo": "./Icons/social-media1.png",
     "jobsAvailable": 300
   },
   {
     "category": "Finance",
-    "logo": "../src/assets/Icons/accounts 1.png",
+    "logo": "./Icons/accounts1.png",
     "jobsAvailable": 200
   },
   {
     "category": "Design",
-    "logo": "../src/assets/Icons/business 1.png",
+    "logo": "./Icons/business1.png",
     "jobsAvailable": 100
   }
 ]

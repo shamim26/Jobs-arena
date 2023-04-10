@@ -1,0 +1,111 @@
+[
+  {
+    "id": 1,
+    "companyLogo": "./Logo/logo(1).png",
+    "jobTitle": "Front-end Developer",
+    "companyName": "ABC Inc.",
+    "remoteOrOnsite": "Remote",
+    "location": "Any",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "jobDescription": "We are seeking a skilled front-end developer to join our team. The ideal candidate should have experience with React, Angular or Vue.js, and be familiar with CSS pre-processors such as Sass or Less.",
+    "jobResponsibility": "Responsibilities include designing and implementing user interfaces, collaborating with back-end developers to integrate with APIs, and working with product managers to understand user requirements.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or a related field.",
+    "experiences": "3+ years of experience in front-end development.",
+    "contactInformation": {
+      "phone": "123-456-7890",
+      "email": "hr@abcinc.com"
+    }
+  },
+  {
+    "id": 2,
+    "companyLogo": "./Logo/logo2).png",
+    "jobTitle": "Back-end Developer",
+    "companyName": "XYZ Corp.",
+    "remoteOrOnsite": "Onsite",
+    "location": "New York City",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$90,000 - $120,000",
+    "jobDescription": "We are seeking a skilled back-end developer to join our team. The ideal candidate should have experience with Node.js, MongoDB or MySQL, and be familiar with RESTful API design.",
+    "jobResponsibility": "Responsibilities include designing and implementing server-side applications, writing and maintaining database queries, and collaborating with front-end developers to integrate with user interfaces.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or a related field.",
+    "experiences": "5+ years of experience in back-end development.",
+    "contactInformation": {
+      "phone": "555-555-1234",
+      "email": "jobs@xyzcorp.com"
+    }
+  },
+  {
+    "id": 3,
+    "companyLogo": "./Logo/google-1-13.png",
+    "jobTitle": "Product Manager",
+    "companyName": "123 Corp.",
+    "remoteOrOnsite": "Remote",
+    "location": "Any",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$100,000 - $150,000",
+    "jobDescription": "We are seeking an experienced product manager to lead our product development efforts. The ideal candidate should have experience with Agile methodologies, user research, and product design.",
+    "jobResponsibility": "Responsibilities include defining product vision and strategy, conducting user research and testing, collaborating with cross-functional teams, and defining and tracking product metrics.",
+    "educationalRequirements": "Bachelor's degree in a related field.",
+    "experiences": "7+ years of experience in product management.",
+    "contactInformation": {
+      "phone": "800-555-1212",
+      "email": "careers@123corp.com"
+    }
+  },
+  {
+    "id": 4,
+    "companyLogo": "./Logo/Group10021.png",
+    "jobTitle": "UI/UX Designer",
+    "companyName": "Design Co.",
+    "remoteOrOnsite": "Onsite",
+    "location": "San Francisco",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$90,000 - $110,000",
+    "jobDescription": "We are seeking a talented UI/UX designer to join our growing design team. The ideal candidate should have experience with user-centered design principles, design software such as Sketch or Figma, and prototyping tools like InVision or Principle.",
+    "jobResponsibility": "Responsibilities include conducting user research and testing, creating wireframes and prototypes, collaborating with product managers and developers, and designing user interfaces for web and mobile applications.",
+    "educationalRequirements": "Bachelor's degree in a related field.",
+    "experiences": "3+ years of experience in UI/UX design.",
+    "contactInformation": {
+      "phone": "415-555-1234",
+      "email": "jobs@designco.com"
+    }
+  },
+  {
+    "id": 5,
+    "companyLogo": "./Logo/netflix-41.png",
+    "jobTitle": "Data Scientist",
+    "companyName": "Analytics LLC",
+    "remoteOrOnsite": "Remote",
+    "location": "Any",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$120,000 - $150,000",
+    "jobDescription": "We are seeking a skilled data scientist to join our team. The ideal candidate should have experience with machine learning algorithms, statistical analysis, and programming languages such as Python or R.",
+    "jobResponsibility": "Responsibilities include designing and implementing machine learning models, conducting statistical analyses, and working with cross-functional teams to identify data-driven solutions to business problems.",
+    "educationalRequirements": "Master's degree or PhD in a related field.",
+    "experiences": "5+ years of experience in data science or a related field.",
+    "contactInformation": {
+      "phone": "555-555-1212",
+      "email": "careers@analyticsllc.com"
+    }
+  },
+  {
+    "id": 6,
+    "companyLogo": "./Logo/tesla-91.png",
+    "jobTitle": "Full Stack Developer",
+    "companyName": "Web Dev Inc.",
+    "remoteOrOnsite": "Remote",
+    "location": "Any",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "jobDescription": "We are seeking a full stack developer to join our team. The ideal candidate should have experience with modern web development frameworks such as React, Angular, or Vue, as well as proficiency in both frontend and backend technologies such as HTML, CSS, JavaScript, Node.js, and SQL or NoSQL databases.",
+    "jobResponsibility": "Responsibilities include developing and maintaining web applications, collaborating with designers and other developers, and ensuring that the user interface is visually appealing and responsive, as well as optimizing application performance and scalability.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or a related field.",
+    "experiences": "3+ years of experience in full stack development.",
+    "contactInformation": {
+      "phone": "555-555-1234",
+      "email": "jobs@webdevinc.com"
+    }
+  }
+  
+]
