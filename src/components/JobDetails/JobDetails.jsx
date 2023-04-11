@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import CommonBanner from "../CommonBanner/CommonBanner";
 import { useLoaderData, useParams } from "react-router-dom";
-import { addToDb } from "../../utilities/localDB";
+import { addToDb, getJobPost } from "../../utilities/localDB";
+import toast, { Toaster } from 'react-hot-toast';
 
 const JobDetails = () => {
   const { id } = useParams();
@@ -14,6 +15,15 @@ const JobDetails = () => {
       setSingleJob(foundData);
     }
   }, [jobDet]);
+
+  const handleApply = (Id) => {
+    const storedJob = getJobPost();
+    if (Id in storedJob) {
+      toast.error('Already Applied !!')
+    } else {
+      addToDb(Id);
+    }
+  };
 
   return (
     <div>
@@ -41,20 +51,12 @@ const JobDetails = () => {
           <div className="rounded-lg bg-[#7E90FE1A] p-5 space-y-4 ">
             <h5 className="font-semibold pb-2 border-b-2">Job Details</h5>
             <p className="text-[#757575] font-medium">
-              <img
-                className="inline"
-                src="/Icons/Frame.png"
-                alt=""
-              />{" "}
+              <img className="inline" src="/Icons/Frame.png" alt="" />{" "}
               <span className="text-black">Salary: </span>
               {singleJob.salary}
             </p>
             <p className="text-[#757575]">
-              <img
-                className="inline"
-                src="/Icons/Frame-1.png"
-                alt=""
-              />{" "}
+              <img className="inline" src="/Icons/Frame-1.png" alt="" />{" "}
               <span className="text-black">Job Title: </span>
               {singleJob.jobTitle}
             </p>
@@ -62,33 +64,25 @@ const JobDetails = () => {
               Contact Information
             </h5>
             <p className="text-[#757575]">
-              <img
-                className="inline"
-                src="/Icons/Frame-2.png"
-                alt=""
-              />{" "}
+              <img className="inline" src="/Icons/Frame-2.png" alt="" />{" "}
               <span className="text-black">Phone: </span> {singleJob.phone}
             </p>
             <p className="text-[#757575]">
-              <img
-                className="inline"
-                src="/Icons/Frame-3.png"
-                alt=""
-              />{" "}
+              <img className="inline" src="/Icons/Frame-3.png" alt="" />{" "}
               <span className="text-black">Email: </span> {singleJob.email}
             </p>
             <p className="text-[#757575]">
-              <img
-                className="inline"
-                src="/Icons/Frame-4.png"
-                alt=""
-              />{" "}
+              <img className="inline" src="/Icons/Frame-4.png" alt="" />{" "}
               <span className="text-black">Address: </span> {singleJob.location}
             </p>
           </div>
-          <button onClick={() => addToDb(singleJob.id)} className="font-semibold text-white rounded-lg bg-gradient-to-tl from-[#7E90FE] to-[#9873FF] py-3 px-24 mt-6">
+          <button
+            onClick={() => handleApply(singleJob.id)}
+            className="font-semibold text-white rounded-lg bg-gradient-to-tl from-[#7E90FE] to-[#9873FF] py-3 px-24 mt-6"
+          >
             Apply Now
           </button>
+          <Toaster/>
         </div>
       </div>
     </div>
