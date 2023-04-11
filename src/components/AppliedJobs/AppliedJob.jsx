@@ -33,7 +33,7 @@ const AppliedJob = ({ job }) => {
           <span>
             <img
               className="inline"
-              src="../../../public/Icons/Frame-4.png"
+              src="/Icons/Frame-4.png"
               alt=""
             />
             {location}
@@ -42,7 +42,7 @@ const AppliedJob = ({ job }) => {
           <span className="ml-5">
             <img
               className="inline"
-              src="../../../public/Icons/Frame.png"
+              src="/Icons/Frame.png"
               alt=""
             />
             {salary}

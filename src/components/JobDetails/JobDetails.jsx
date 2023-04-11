@@ -43,19 +43,19 @@ const JobDetails = () => {
             <p className="text-[#757575] font-medium">
               <img
                 className="inline"
-                src="../../../public/Icons/Frame.png"
+                src="/Icons/Frame.png"
                 alt=""
               />{" "}
-              <span className="text-black">Salary:</span>
+              <span className="text-black">Salary: </span>
               {singleJob.salary}
             </p>
             <p className="text-[#757575]">
               <img
                 className="inline"
-                src="../../../public/Icons/Frame-1.png"
+                src="/Icons/Frame-1.png"
                 alt=""
               />{" "}
-              <span className="text-black">Job Title:</span>
+              <span className="text-black">Job Title: </span>
               {singleJob.jobTitle}
             </p>
             <h5 className="font-semibold pb-2 border-b-2">
@@ -64,26 +64,26 @@ const JobDetails = () => {
             <p className="text-[#757575]">
               <img
                 className="inline"
-                src="../../../public/Icons/Frame-2.png"
+                src="/Icons/Frame-2.png"
                 alt=""
               />{" "}
-              <span className="text-black">Phone:</span> {singleJob.phone}
+              <span className="text-black">Phone: </span> {singleJob.phone}
             </p>
             <p className="text-[#757575]">
               <img
                 className="inline"
-                src="../../../public/Icons/Frame-3.png"
+                src="/Icons/Frame-3.png"
                 alt=""
               />{" "}
-              <span className="text-black">Email:</span> {singleJob.email}
+              <span className="text-black">Email: </span> {singleJob.email}
             </p>
             <p className="text-[#757575]">
               <img
                 className="inline"
-                src="../../../public/Icons/Frame-4.png"
+                src="/Icons/Frame-4.png"
                 alt=""
               />{" "}
-              <span className="text-black">Address:</span> {singleJob.location}
+              <span className="text-black">Address: </span> {singleJob.location}
             </p>
           </div>
           <button onClick={() => addToDb(singleJob.id)} className="font-semibold text-white rounded-lg bg-gradient-to-tl from-[#7E90FE] to-[#9873FF] py-3 px-24 mt-6">

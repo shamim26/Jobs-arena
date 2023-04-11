@@ -11,6 +11,7 @@ const AppliedJobs = () => {
   useEffect(() => {
     setRenderJobs(storedJobs);
   }, [storedJobs]);
+  
   const handleSort = (selected) => {
     if (selected === "") {
       setRenderJobs(data);
