@@ -5,14 +5,11 @@ export default {
     fontFamily: {
       sans: ["Manrope", "sans-serif"],
     },
-    fontWeight:{
-      lightt:["300"]
+    extend: {
+      gridTemplateColumns: {
+        custom: ["3fr 1fr"],
+      },
     },
-    extend:{
-      gridTemplateColumns:{
-        custom: ['3fr 1fr']
-      }
-    }
   },
   plugins: [],
 };
